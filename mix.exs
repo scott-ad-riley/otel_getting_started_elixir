@@ -28,8 +28,9 @@ defmodule OtelGettingStartedElixir.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:opentelemetry_api, "~> 1.0.0-rc.1"},
-      {:opentelemetry, "~> 1.0.0-rc.1"}
+      {:opentelemetry_api, "1.0.0-rc.1"},
+      {:opentelemetry, "1.0.0-rc.1"},
+      {:opentelemetry_exporter, "1.0.0-rc.1"}
     ]
   end
 end
