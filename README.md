@@ -1,6 +1,6 @@
 # OtelGettingStartedElixir
 
-Assuming the 3 env vars are set as per [the elixir getting started repo](https://github.com/tsloughter/otel_getting_started):
+Assuming the 3 env vars are set as per [the erlang getting started repo](https://github.com/tsloughter/otel_getting_started):
 
 ```sh
 export OTEL_EXPORTER_OTLP_TRACES_ENDPOINT=https://api.honeycomb.io:443
