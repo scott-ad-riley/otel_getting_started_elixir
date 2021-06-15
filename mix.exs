@@ -28,11 +28,10 @@ defmodule OtelGettingStartedElixir.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:recon, ">= 0.0.0"},
       {:grpcbox, "~> 0.14.0", override: true},
       {:opentelemetry_api, git: "http://github.com/open-telemetry/opentelemetry-erlang", branch: "main", sparse: "apps/opentelemetry_api", override: true},
       {:opentelemetry, git: "http://github.com/open-telemetry/opentelemetry-erlang", branch: "main", sparse: "apps/opentelemetry", override: true},
-      {:opentelemetry_exporter, git: "http://github.com/ferd/opentelemetry-erlang", branch: "main", sparse: "apps/opentelemetry_exporter", override: true}
+      {:opentelemetry_exporter, git: "http://github.com/open-telemetry/opentelemetry-erlang", branch: "main", sparse: "apps/opentelemetry_exporter", override: true}
     ]
   end
 end
